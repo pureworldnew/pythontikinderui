@@ -1,0 +1,10 @@
+Frontend gui development using tkinter.
+
+Each records stored in database has about 800 fields, 
+which are organized in tables across different sections / tabs.
+
+GUI should support
+1) creating a new record by completing each field from user input 
+and insert the completed entry into the database.
+2) search for existing records from any completed fields from user 
+and export the results to excel.

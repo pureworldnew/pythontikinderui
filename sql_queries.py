@@ -1,0 +1,7 @@
+CREATE_TABLE_SQL = '''
+	CREATE TABLE test (
+	a INTEGER,
+	b TEXT NOT NULL,
+	c TEXT NOT NULL
+);
+'''
