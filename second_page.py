@@ -3,10 +3,10 @@ from tkinter import ttk
 from tkcalendar import DateEntry
 import json
 
-entry_array = {}
+entry_array2 = {}
 
 def ele_row(elements, second_page):
-    global entry_array
+    global entry_array2
 
     for ele in elements:
         if ele['type'] == 'label':
@@ -22,6 +22,7 @@ def ele_row(elements, second_page):
             if ele['type'] == 'input':
                 entry = ttk.Entry(second_page)
                 entry.grid(row=ele['row'], column=ele['column']+ele['col_gap'], sticky=W, padx=20)
+                entry_array2[ele['id']] = entry
             elif ele['type'] == 'select':
                 OPTIONS = []
                 for d in range(0, 10):
@@ -30,6 +31,7 @@ def ele_row(elements, second_page):
                 variable.set(OPTIONS[0])  # default value
                 entry = ttk.OptionMenu(second_page, variable, *OPTIONS)
                 entry.grid(row=ele['row'], column=ele['column']+ele['col_gap'])
+                entry_array2[ele['id']] = variable
             elif ele['type'] == 'datetime':
                 entry = DateEntry(second_page)
                 entry.grid(row=ele['row'], column=ele['column']+ele['col_gap'], sticky=W)
@@ -40,12 +42,11 @@ def ele_row(elements, second_page):
             #     var2 = IntVar()
             #     entry = Checkbutton(second_page, text="F", variable=var2)
             #     entry.grid(row=ele['row'], column=ele['column']+ele['col_gap'], sticky=W, columnspan=2)
-            entry_array[ele['id']] = entry
 
 
 def SecondPage(second_page):
     row = 1
-    f = open('second_page.json', )
+    f = open('json/second_page.json', )
     elements = json.load(f)
     f.close()
 

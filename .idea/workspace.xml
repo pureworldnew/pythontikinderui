@@ -3,19 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="e2e2b337-5674-43cf-b523-fbd43f7f67ce" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/db_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_page.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_page.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second_page.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_tables.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end - Copy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end.py" beforeDir="false" afterPath="$PROJECT_DIR$/front_end.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helper_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/helper_functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jd.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mydb.db" beforeDir="false" afterPath="$PROJECT_DIR$/mydb.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tab1.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_page.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/first_page.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper_functions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_page.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/second_page.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/second_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql_queries.py" beforeDir="false" afterPath="$PROJECT_DIR$/sql_queries.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,10 +33,11 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/json" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Present\freelancerpavel\tkinder\json" />
       <recent name="E:\Present\freelancerpavel\tkinder" />
     </key>
   </component>
@@ -56,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.front_end">
+  <component name="RunManager" selected="Python.run">
     <configuration name="first_page" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tkindergui" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -78,27 +75,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="front_end - Copy" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="tkindergui" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/front_end - Copy.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="front_end" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tkindergui" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -112,6 +88,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/front_end.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="helper_functions" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tkindergui" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="E:\Present\freelancerpavel\tkinder\run.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -164,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.front_end" />
         <item itemvalue="Python.run" />
+        <item itemvalue="Python.helper_functions" />
+        <item itemvalue="Python.front_end" />
         <item itemvalue="Python.first_page" />
         <item itemvalue="Python.ttt" />
-        <item itemvalue="Python.front_end - Copy" />
       </list>
     </recent_temporary>
   </component>
