@@ -1,0 +1,1099 @@
+[
+  {
+    "row": 0,
+    "type": "label",
+    "label": "Basic Info:"
+  },
+  {
+    "row": 1,
+    "type": "input",
+    "column": 1,
+    "label": "Organization:",
+    "id": "organization",
+    "col_gap": 1
+  },
+  {
+    "row": 1,
+    "type": "input",
+    "column": 3,
+    "label": "Organization Code:",
+    "id": "organization_code",
+    "col_gap": 1
+  },
+  {
+    "row": 1,
+    "type": "select",
+    "column": 5,
+    "label": "Payment Method:",
+    "id": "payment_method",
+    "col_gap": 4
+  },
+  {
+    "row": 2,
+    "type": "input",
+    "column": 1,
+    "label": "H Card Number:",
+    "id": "h_card_number",
+    "col_gap": 1
+  },
+  {
+    "row": 2,
+    "type": "input",
+    "column": 3,
+    "label": "Previous visit:",
+    "id": "previous_visit",
+    "col_gap": 1
+  },
+  {
+    "row": 2,
+    "type": "input",
+    "column": 5,
+    "label": "Document ID:",
+    "id": "document_id",
+    "col_gap": 4
+  },
+  {
+    "row": 3,
+    "type": "input",
+    "column": 1,
+    "label": "Full Name:",
+    "id": "full_name",
+    "col_gap": 1
+  },
+  {
+    "row": 3,
+    "type": "input",
+    "column": 3,
+    "label": "Gender:",
+    "id": "gender",
+    "col_gap": 1
+  },
+  {
+    "row": 3,
+    "type": "input",
+    "column": 5,
+    "label": "D.O.B:",
+    "id": "dob",
+    "col_gap": 4
+  },
+  {
+    "row": 4,
+    "type": "input",
+    "column": 1,
+    "label": "Nationality:",
+    "id": "nationality",
+    "col_gap": 1
+  },
+  {
+    "row": 4,
+    "type": "input",
+    "column": 3,
+    "label": "Ethnicity:",
+    "id": "ethnicity",
+    "col_gap": 1
+  },
+  {
+    "row": 4,
+    "type": "input",
+    "column": 5,
+    "label": "ID Card:",
+    "id": "id_card",
+    "col_gap": 4
+  },
+  {
+    "row": 5,
+    "type": "input",
+    "column": 1,
+    "label": "Weight-1 (g):",
+    "id": "weight_1",
+    "col_gap": 1
+  },
+  {
+    "row": 5,
+    "type": "input",
+    "column": 3,
+    "label": "Weight-2 (g):",
+    "id": "weight_2",
+    "col_gap": 1
+  },
+  {
+    "row": 5,
+    "type": "input",
+    "column": 5,
+    "label": "Age:",
+    "id": "age",
+    "col_gap": 4
+  },
+  {
+    "row": 6,
+    "type": "input",
+    "column": 1,
+    "label": "Place of birth:",
+    "id": "place_of_birth",
+    "col_gap": 1
+  },
+  {
+    "row": 6,
+    "type": "input",
+    "column": 3,
+    "label": "Place of Origin:",
+    "id": "place_of_origin",
+    "col_gap": 1
+  },
+  {
+    "row": 6,
+    "type": "input",
+    "column": 5,
+    "label": "Occupation:",
+    "id": "occupation",
+    "col_gap": 4
+  },
+  {
+    "row": 7,
+    "type": "input",
+    "column": 1,
+    "label": "Current Address:",
+    "id": "current_address",
+    "col_gap": 1
+  },
+  {
+    "row": 7,
+    "type": "input",
+    "column": 3,
+    "label": "Contact Number:",
+    "id": "contact_number",
+    "col_gap": 1
+  },
+  {
+    "row": 7,
+    "type": "input",
+    "column": 5,
+    "label": "Postal Code:",
+    "id": "postal_code",
+    "col_gap": 4
+  },
+  {
+    "row": 8,
+    "type": "input",
+    "column": 1,
+    "label": "Home Address:",
+    "id": "home_address",
+    "col_gap": 1
+  },
+  {
+    "row": 8,
+    "type": "input",
+    "column": 3,
+    "label": "Home Postal Code:",
+    "id": "home_postal_code",
+    "col_gap": 1
+  },
+  {
+    "row": 8,
+    "type": "input",
+    "column": 5,
+    "label": "Marriage Status:",
+    "id": "marriage_status",
+    "col_gap": 4
+  },
+  {
+    "row": 9,
+    "type": "input",
+    "column": 1,
+    "label": "Work Address:",
+    "id": "work_address",
+    "col_gap": 1
+  },
+  {
+    "row": 9,
+    "type": "input",
+    "column": 3,
+    "label": "Work Phone:",
+    "id": "work_phone",
+    "col_gap": 1
+  },
+  {
+    "row": 9,
+    "type": "input",
+    "column": 5,
+    "label": "Work Postal:",
+    "id": "work_postal",
+    "col_gap": 4
+  },
+  {
+    "row": 10,
+    "type": "input",
+    "column": 1,
+    "label": "Contact Name:",
+    "id": "contact_name",
+    "col_gap": 1
+  },
+  {
+    "row": 10,
+    "type": "input",
+    "column": 3,
+    "label": "Relationship with contact:",
+    "id": "relationship_with_contact",
+    "col_gap": 1
+  },
+  {
+    "row": 10,
+    "type": "input",
+    "column": 5,
+    "label": "Contacts phone Number:",
+    "id": "contacts_phone_number",
+    "col_gap": 4
+  },
+  {
+    "row": 11,
+    "type": "input",
+    "column": 1,
+    "label": "Contact Address:",
+    "id": "contact_address",
+    "col_gap": 1
+  },
+  {
+    "row": 12,
+    "type": "label",
+    "label": "Entry Info:"
+  },
+  {
+    "row": 13,
+    "type": "input",
+    "column": 1,
+    "label": "Entry Method:",
+    "id": "entry_method",
+    "col_gap": 1
+  },
+  {
+    "row": 13,
+    "type": "input",
+    "column": 3,
+    "label": "Diname:",
+    "id": "diname",
+    "col_gap": 1
+  },
+  {
+    "row": 13,
+    "type": "input",
+    "column": 5,
+    "label": "Dicode:",
+    "id": "dicode",
+    "col_gap": 4
+  },
+  {
+    "row": 14,
+    "type": "input",
+    "column": 1,
+    "label": "Entry Time:",
+    "id": "entry_time",
+    "col_gap": 1
+  },
+  {
+    "row": 14,
+    "type": "input",
+    "column": 3,
+    "label": "Entry Department:",
+    "id": "entry_department",
+    "col_gap": 1
+  },
+  {
+    "row": 14,
+    "type": "input",
+    "column": 5,
+    "label": "Entry Room:",
+    "id": "entry_room",
+    "col_gap": 4
+  },
+  {
+    "row": 15,
+    "type": "input",
+    "column": 1,
+    "label": "Exit Time:",
+    "id": "exit_time",
+    "col_gap": 1
+  },
+  {
+    "row": 15,
+    "type": "input",
+    "column": 3,
+    "label": "Exit Department:",
+    "id": "exit_department",
+    "col_gap": 1
+  },
+  {
+    "row": 15,
+    "type": "input",
+    "column": 5,
+    "label": "Exit Room:",
+    "id": "exit_room",
+    "col_gap": 4
+  },
+  {
+    "row": 16,
+    "type": "input",
+    "column": 1,
+    "label": "Number of stay:",
+    "id": "number_of_stay",
+    "col_gap": 1
+  },
+  {
+    "row": 16,
+    "type": "input",
+    "column": 3,
+    "label": "Doc:",
+    "id": "doc",
+    "col_gap": 1
+  },
+  {
+    "row": 16,
+    "type": "input",
+    "column": 5,
+    "label": "Path Record:",
+    "id": "path_record",
+    "col_gap": 4
+  },
+  {
+    "row": 17,
+    "type": "input",
+    "column": 1,
+    "label": "Classification:",
+    "id": "classficiation",
+    "col_gap": 1
+  },
+  {
+    "row": 17,
+    "type": "input",
+    "column": 3,
+    "label": "Saves:",
+    "id": "saves",
+    "col_gap": 1
+  },
+  {
+    "row": 17,
+    "type": "input",
+    "column": 5,
+    "label": "Success:",
+    "id": "success",
+    "col_gap": 4
+  },
+  {
+    "row": 18,
+    "type": "label",
+    "label": "Department Transfer"
+  },
+  {
+    "row": 19,
+    "type": "input",
+    "column": 1,
+    "label": "Transfer Time:",
+    "id": "transfer_time",
+    "col_gap": 1
+  },
+  {
+    "row": 19,
+    "type": "input",
+    "column": 3,
+    "label": "New Department:",
+    "id": "new_department",
+    "col_gap": 1
+  },
+  {
+    "row": 20,
+    "type": "label",
+    "label": "Exit Form"
+  },
+  {
+    "row": 21,
+    "type": "label",
+    "label": "Main"
+  },
+  {
+    "row": 22,
+    "type": "input",
+    "column": 1,
+    "label": "Diname:",
+    "id": "main_diname",
+    "col_gap": 1
+  },
+  {
+    "row": 22,
+    "type": "input",
+    "column": 3,
+    "label": "Dicode:",
+    "id": "main_dicode",
+    "col_gap": 1
+  },
+  {
+    "row": 22,
+    "type": "input",
+    "column": 5,
+    "label": "Entry Sign:",
+    "id": "main_entry_sign",
+    "col_gap": 4
+  },
+  {
+    "row": 23,
+    "type": "label",
+    "label": "Additional"
+  },
+  {
+    "row": 24,
+    "type": "input",
+    "column": 1,
+    "label": "Diname:",
+    "id": "additional_diname",
+    "col_gap": 1
+  },
+  {
+    "row": 24,
+    "type": "input",
+    "column": 3,
+    "label": "Dicode:",
+    "id": "additional_dicode",
+    "col_gap": 1
+  },
+  {
+    "row": 24,
+    "type": "input",
+    "column": 5,
+    "label": "Entry Sign:",
+    "id": "additional_entry_sign",
+    "col_gap": 4
+  },
+  {
+    "row": 25,
+    "type": "label",
+    "label": "Operations"
+  },
+  {
+    "row": 26,
+    "type": "input",
+    "column": 1,
+    "label": "Date:",
+    "id": "operations_date",
+    "col_gap": 1
+  },
+  {
+    "row": 26,
+    "type": "input",
+    "column": 3,
+    "label": "Name:",
+    "id": "operations_name",
+    "col_gap": 1
+  },
+  {
+    "row": 26,
+    "type": "input",
+    "column": 5,
+    "label": "Code:",
+    "id": "operations_code",
+    "col_gap": 4
+  },
+  {
+    "row": 27,
+    "type": "input",
+    "column": 1,
+    "label": "Level:",
+    "id": "operations_level",
+    "col_gap": 1
+  },
+  {
+    "row": 27,
+    "type": "input",
+    "column": 3,
+    "label": "Operator:",
+    "id": "operations_operator",
+    "col_gap": 1
+  },
+  {
+    "row": 27,
+    "type": "input",
+    "column": 5,
+    "label": "First Assist:",
+    "id": "operations_first_assist",
+    "col_gap": 4
+  },
+  {
+    "row": 28,
+    "type": "input",
+    "column": 1,
+    "label": "Second Assist:",
+    "id": "operations_second_assist",
+    "col_gap": 1
+  },
+  {
+    "row": 28,
+    "type": "input",
+    "column": 3,
+    "label": "Class:",
+    "id": "operations_class",
+    "col_gap": 1
+  },
+  {
+    "row": 28,
+    "type": "input",
+    "column": 5,
+    "label": "Cut/rec level:",
+    "id": "operations_cut_rec_level",
+    "col_gap": 4
+  },
+  {
+    "row": 29,
+    "type": "input",
+    "column": 1,
+    "label": "Hypn Method:",
+    "id": "operations_hypn_method",
+    "col_gap": 1
+  },
+  {
+    "row": 29,
+    "type": "input",
+    "column": 3,
+    "label": "Hypn Operator:",
+    "id": "operations_hypn_operator",
+    "col_gap": 1
+  },
+  {
+    "row": 30,
+    "type": "label",
+    "label": "Damage:"
+  },
+  {
+    "row": 31,
+    "type": "input",
+    "column": 1,
+    "label": "Cause:",
+    "id": "damage_cause",
+    "col_gap": 1
+  },
+  {
+    "row": 31,
+    "type": "input",
+    "column": 3,
+    "label": "Dicode:",
+    "id": "damage_dicode",
+    "col_gap": 1
+  },
+  {
+    "row": 32,
+    "type": "label",
+    "label": "Di Analysis:"
+  },
+  {
+    "row": 33,
+    "type": "input",
+    "column": 1,
+    "label": "Diname:",
+    "id": "di_analysis_diname",
+    "col_gap": 1
+  },
+  {
+    "row": 33,
+    "type": "input",
+    "column": 3,
+    "label": "Dicode:",
+    "id": "di_analysis_dicode",
+    "col_gap": 1
+  },
+  {
+    "row": 33,
+    "type": "input",
+    "column": 5,
+    "label": "Di Number:",
+    "id": "di_analysis_dinumber",
+    "col_gap": 4
+  },
+  {
+    "row": 34,
+    "type": "label",
+    "label": "Exit report"
+  },
+  {
+    "row": 35,
+    "type": "input",
+    "column": 1,
+    "label": "Exit Method:",
+    "id": "exit_method",
+    "col_gap": 1
+  },
+  {
+    "row": 36,
+    "type": "input",
+    "column": 1,
+    "label": "Next Organization:",
+    "id": "next_organization",
+    "col_gap": 1
+  },
+  {
+    "row": 36,
+    "type": "input",
+    "column": 3,
+    "label": "Plan for next 30 days:",
+    "id": "plan_for_next30_days",
+    "col_gap": 1
+  },
+  {
+    "row": 36,
+    "type": "input",
+    "column": 5,
+    "label": "Intention for re-entry:",
+    "id": "intention_for_re_entry",
+    "col_gap": 4
+  },
+  {
+    "row": 37,
+    "type": "label",
+    "label": "Timeout"
+  },
+  {
+    "row": 38,
+    "type": "label",
+    "label": "Prior"
+  },
+  {
+    "row": 39,
+    "type": "input",
+    "column": 1,
+    "label": "Day:",
+    "id": "prior_day",
+    "col_gap": 1
+  },
+  {
+    "row": 39,
+    "type": "input",
+    "column": 3,
+    "label": "Hour:",
+    "id": "prior_hour",
+    "col_gap": 1
+  },
+  {
+    "row": 39,
+    "type": "input",
+    "column": 5,
+    "label": "Minute:",
+    "id": "prior_minute",
+    "col_gap": 4
+  },
+  {
+    "row": 40,
+    "type": "label",
+    "label": "After"
+  },
+  {
+    "row": 41,
+    "type": "input",
+    "column": 1,
+    "label": "Day:",
+    "id": "after_day",
+    "col_gap": 1
+  },
+  {
+    "row": 41,
+    "type": "input",
+    "column": 3,
+    "label": "Hour:",
+    "id": "after_hour",
+    "col_gap": 1
+  },
+  {
+    "row": 41,
+    "type": "input",
+    "column": 5,
+    "label": "Minute:",
+    "id": "after_minute",
+    "col_gap": 4
+  },
+  {
+    "row": 42,
+    "type": "label",
+    "label": "Drug/Blood Type/Report"
+  },
+  {
+    "row": 43,
+    "type": "input",
+    "column": 1,
+    "label": "Allergy:",
+    "id": "allergy",
+    "col_gap": 1
+  },
+  {
+    "row": 43,
+    "type": "input",
+    "column": 3,
+    "label": "substance:",
+    "id": "substance",
+    "col_gap": 1
+  },
+  {
+    "row": 43,
+    "type": "input",
+    "column": 5,
+    "label": "Blood Type:",
+    "id": "blood_type",
+    "col_gap": 4
+  },
+  {
+    "row": 44,
+    "type": "input",
+    "column": 1,
+    "label": "Bare Blood Type:",
+    "id": "bare_blood_type",
+    "col_gap": 1
+  },
+  {
+    "row": 44,
+    "type": "input",
+    "column": 3,
+    "label": "reported:",
+    "id": "reported",
+    "col_gap": 1
+  },
+  {
+    "row": 45,
+    "type": "label",
+    "label": "Fees:"
+  },
+  {
+    "row": 46,
+    "type": "input",
+    "column": 1,
+    "label": "total:",
+    "id": "total",
+    "col_gap": 1
+  },
+  {
+    "row": 46,
+    "type": "input",
+    "column": 3,
+    "label": "Fee1:",
+    "id": "fee_1",
+    "col_gap": 1
+  },
+  {
+    "row": 46,
+    "type": "input",
+    "column": 5,
+    "label": "Fee2:",
+    "id": "fee_2",
+    "col_gap": 4
+  },
+  {
+    "row": 47,
+    "type": "input",
+    "column": 1,
+    "label": "Fee3:",
+    "id": "fee_3",
+    "col_gap": 1
+  },
+  {
+    "row": 47,
+    "type": "input",
+    "column": 3,
+    "label": "Fee4:",
+    "id": "fee_4",
+    "col_gap": 1
+  },
+  {
+    "row": 47,
+    "type": "input",
+    "column": 5,
+    "label": "Fee5:",
+    "id": "fee_5",
+    "col_gap": 4
+  },
+  {
+    "row": 48,
+    "type": "input",
+    "column": 1,
+    "label": "Fee6:",
+    "id": "fee_6",
+    "col_gap": 1
+  },
+  {
+    "row": 48,
+    "type": "input",
+    "column": 3,
+    "label": "Fee7:",
+    "id": "fee_7",
+    "col_gap": 1
+  },
+  {
+    "row": 48,
+    "type": "input",
+    "column": 5,
+    "label": "Fee8:",
+    "id": "fee_8",
+    "col_gap": 4
+  },
+  {
+    "row": 49,
+    "type": "input",
+    "column": 1,
+    "label": "Fee9:",
+    "id": "fee_9",
+    "col_gap": 1
+  },
+  {
+    "row": 49,
+    "type": "input",
+    "column": 3,
+    "label": "Fee10:",
+    "id": "fee_10",
+    "col_gap": 1
+  },
+  {
+    "row": 49,
+    "type": "input",
+    "column": 5,
+    "label": "Fee11:",
+    "id": "fee_11",
+    "col_gap": 4
+  },
+  {
+    "row": 50,
+    "type": "input",
+    "column": 1,
+    "label": "Fee12:",
+    "id": "fee_12",
+    "col_gap": 1
+  },
+  {
+    "row": 50,
+    "type": "input",
+    "column": 3,
+    "label": "Fee13:",
+    "id": "fee_13",
+    "col_gap": 1
+  },
+  {
+    "row": 50,
+    "type": "input",
+    "column": 5,
+    "label": "Fee14:",
+    "id": "fee_14",
+    "col_gap": 4
+  },
+  {
+    "row": 51,
+    "type": "input",
+    "column": 1,
+    "label": "Fee15:",
+    "id": "fee_15",
+    "col_gap": 1
+  },
+  {
+    "row": 51,
+    "type": "input",
+    "column": 3,
+    "label": "Fee16:",
+    "id": "fee_16",
+    "col_gap": 1
+  },
+  {
+    "row": 51,
+    "type": "input",
+    "column": 5,
+    "label": "Fee17:",
+    "id": "fee_17",
+    "col_gap": 4
+  },
+  {
+    "row": 52,
+    "type": "input",
+    "column": 1,
+    "label": "Fee18:",
+    "id": "fee_18",
+    "col_gap": 1
+  },
+  {
+    "row": 52,
+    "type": "input",
+    "column": 3,
+    "label": "Fee19:",
+    "id": "fee_19",
+    "col_gap": 1
+  },
+  {
+    "row": 52,
+    "type": "input",
+    "column": 5,
+    "label": "Fee20:",
+    "id": "fee_20",
+    "col_gap": 4
+  },
+  {
+    "row": 53,
+    "type": "input",
+    "column": 1,
+    "label": "Fee21:",
+    "id": "fee_21",
+    "col_gap": 1
+  },
+  {
+    "row": 53,
+    "type": "input",
+    "column": 3,
+    "label": "Fee22:",
+    "id": "fee_22",
+    "col_gap": 1
+  },
+  {
+    "row": 53,
+    "type": "input",
+    "column": 5,
+    "label": "Fee23:",
+    "id": "fee_23",
+    "col_gap": 4
+  },
+  {
+    "row": 54,
+    "type": "input",
+    "column": 1,
+    "label": "Fee24:",
+    "id": "fee_24",
+    "col_gap": 1
+  },
+  {
+    "row": 54,
+    "type": "input",
+    "column": 3,
+    "label": "Fee25:",
+    "id": "fee_25",
+    "col_gap": 1
+  },
+  {
+    "row": 54,
+    "type": "input",
+    "column": 5,
+    "label": "Fee26:",
+    "id": "fee_26",
+    "col_gap": 4
+  },
+  {
+    "row": 55,
+    "type": "input",
+    "column": 1,
+    "label": "Fee27:",
+    "id": "fee_27",
+    "col_gap": 1
+  },
+  {
+    "row": 55,
+    "type": "input",
+    "column": 3,
+    "label": "Fee28:",
+    "id": "fee_28",
+    "col_gap": 1
+  },
+  {
+    "row": 55,
+    "type": "input",
+    "column": 5,
+    "label": "Fee29:",
+    "id": "fee_29",
+    "col_gap": 4
+  },
+  {
+    "row": 56,
+    "type": "label",
+    "label": "History"
+  },
+  {
+    "row": 57,
+    "type": "input",
+    "column": 1,
+    "label": "Head:",
+    "id": "history_head",
+    "col_gap": 1
+  },
+  {
+    "row": 57,
+    "type": "input",
+    "column": 3,
+    "label": "VP:",
+    "id": "history_vp",
+    "col_gap": 1
+  },
+  {
+    "row": 57,
+    "type": "input",
+    "column": 5,
+    "label": "Lead:",
+    "id": "history_lead",
+    "col_gap": 4
+  },
+  {
+    "row": 58,
+    "type": "input",
+    "column": 1,
+    "label": "Care Professional:",
+    "id": "history_care_professional",
+    "col_gap": 1
+  },
+  {
+    "row": 58,
+    "type": "input",
+    "column": 3,
+    "label": "Assistant:",
+    "id": "history_assistant",
+    "col_gap": 1
+  },
+  {
+    "row": 58,
+    "type": "input",
+    "column": 5,
+    "label": "Intern:",
+    "id": "history_intern",
+    "col_gap": 4
+  },
+  {
+    "row": 59,
+    "type": "input",
+    "column": 1,
+    "label": "interim:",
+    "id": "history_interim",
+    "col_gap": 1
+  },
+  {
+    "row": 59,
+    "type": "input",
+    "column": 3,
+    "label": "Coder:",
+    "id": "history_code",
+    "col_gap": 1
+  },
+  {
+    "row": 59,
+    "type": "input",
+    "column": 5,
+    "label": "Quality:",
+    "id": "history_quality",
+    "col_gap": 4
+  },
+  {
+    "row": 60,
+    "type": "input",
+    "column": 1,
+    "label": "QA:",
+    "id": "history_qa",
+    "col_gap": 1
+  },
+  {
+    "row": 60,
+    "type": "input",
+    "column": 3,
+    "label": "QA assistant:",
+    "id": "history_qa_assistant",
+    "col_gap": 1
+  },
+  {
+    "row": 60,
+    "type": "input",
+    "column": 5,
+    "label": "Quality Date:",
+    "id": "history_quality_date",
+    "col_gap": 4
+  }
+]
+

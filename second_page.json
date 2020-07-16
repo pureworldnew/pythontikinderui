@@ -1,0 +1,649 @@
+[
+  {
+    "row": 0,
+    "type": "label",
+    "label": "Basic Info:"
+  },
+  {
+    "row": 1,
+    "type": "input",
+    "column": 1,
+    "label": "Name:",
+    "id": "name",
+    "col_gap": 1
+  },
+  {
+    "row": 1,
+    "type": "input",
+    "column": 3,
+    "label": "Record Number:",
+    "id": "record_number",
+    "col_gap": 1
+  },
+  {
+    "row": 1,
+    "type": "select",
+    "column": 5,
+    "label": "Gender:",
+    "id": "gender",
+    "col_gap": 4
+  },
+  {
+    "row": 2,
+    "type": "input",
+    "column": 1,
+    "label": "Weight (kg):",
+    "id": "weight",
+    "col_gap": 1
+  },
+  {
+    "row": 2,
+    "type": "input",
+    "column": 3,
+    "label": "Height:",
+    "id": "height",
+    "col_gap": 1
+  },
+  {
+    "row": 2,
+    "type": "input",
+    "column": 5,
+    "label": "Surface Area:",
+    "id": "surface_area",
+    "col_gap": 4
+  },
+  {
+    "row": 3,
+    "type": "input",
+    "column": 1,
+    "label": "Dob:",
+    "id": "dob",
+    "col_gap": 1
+  },
+  {
+    "row": 3,
+    "type": "input",
+    "column": 3,
+    "label": "Op date:",
+    "id": "op_date",
+    "col_gap": 1
+  },
+  {
+    "row": 3,
+    "type": "input",
+    "column": 5,
+    "label": "Op age(day):",
+    "id": "op_age",
+    "col_gap": 4
+  },
+  {
+    "row": 4,
+    "type": "input",
+    "column": 1,
+    "label": "Gestational age(w):",
+    "id": "gestational_age",
+    "col_gap": 1
+  },
+  {
+    "row": 4,
+    "type": "input",
+    "column": 3,
+    "label": "Month old:",
+    "id": "month_old",
+    "col_gap": 1
+  },
+  {
+    "row": 4,
+    "type": "input",
+    "column": 5,
+    "label": "diagnosis:",
+    "id": "diagnosis",
+    "col_gap": 4
+  },
+  {
+    "row": 5,
+    "type": "input",
+    "column": 1,
+    "label": "Disease:",
+    "id": "disease",
+    "col_gap": 1
+  },
+  {
+    "row": 5,
+    "type": "input",
+    "column": 3,
+    "label": "Genetic abnormality:",
+    "id": "genetic_abnormality",
+    "col_gap": 1
+  },
+  {
+    "row": 5,
+    "type": "input",
+    "column": 5,
+    "label": "Details:",
+    "id": "details",
+    "col_gap": 4
+  },
+  {
+    "row": 12,
+    "type": "label",
+    "label": "History:"
+  },
+  {
+    "row": 13,
+    "type": "input",
+    "column": 1,
+    "label": "Antibiotic use:",
+    "id": "antibiotic_use",
+    "col_gap": 1
+  },
+  {
+    "row": 13,
+    "type": "input",
+    "column": 3,
+    "label": "prev hospitalization:",
+    "id": "prev_hospitalization",
+    "col_gap": 1
+  },
+  {
+    "row": 13,
+    "type": "input",
+    "column": 5,
+    "label": "causes:",
+    "id": "causes",
+    "col_gap": 4
+  },
+  {
+    "row": 14,
+    "type": "input",
+    "column": 1,
+    "label": "prev operation:",
+    "id": "prev_operation",
+    "col_gap": 1
+  },
+  {
+    "row": 14,
+    "type": "input",
+    "column": 3,
+    "label": "prev op name:",
+    "id": "prev_op_name",
+    "col_gap": 1
+  },
+  {
+    "row": 14,
+    "type": "input",
+    "column": 5,
+    "label": "delivery:",
+    "id": "delivery",
+    "col_gap": 4
+  },
+  {
+    "row": 15,
+    "type": "input",
+    "column": 1,
+    "label": "nb_weight (kg):",
+    "id": "nb_weight",
+    "col_gap": 1
+  },
+  {
+    "row": 15,
+    "type": "input",
+    "column": 3,
+    "label": "suff history:",
+    "id": "suff_history",
+    "col_gap": 1
+  },
+  {
+    "row": 15,
+    "type": "input",
+    "column": 5,
+    "label": "rescue history:",
+    "id": "rescue_history",
+    "col_gap": 4
+  },
+  {
+    "row": 16,
+    "type": "input",
+    "column": 1,
+    "label": "Feeding method::",
+    "id": "feeding_method",
+    "col_gap": 1
+  },
+  {
+    "row": 16,
+    "type": "input",
+    "column": 3,
+    "label": "dad age:",
+    "id": "dad_age",
+    "col_gap": 1
+  },
+  {
+    "row": 16,
+    "type": "input",
+    "column": 5,
+    "label": "dad smoke:",
+    "id": "dad_smoke",
+    "col_gap": 4
+  },
+  {
+    "row": 17,
+    "type": "input",
+    "column": 1,
+    "label": "dad drink:",
+    "id": "dad_drink",
+    "col_gap": 1
+  },
+  {
+    "row": 17,
+    "type": "input",
+    "column": 3,
+    "label": "mom age:",
+    "id": "mom_age",
+    "col_gap": 1
+  },
+  {
+    "row": 17,
+    "type": "input",
+    "column": 5,
+    "label": "mom smoke:",
+    "id": "mom_smoke",
+    "col_gap": 4
+  },
+  {
+    "row": 18,
+    "type": "input",
+    "column": 1,
+    "label": "mom drink:",
+    "id": "mom_drink",
+    "col_gap": 1
+  },
+  {
+    "row": 19,
+    "type": "label",
+    "label": "Hospitalization Info"
+  },
+  {
+    "row": 20,
+    "type": "input",
+    "column": 1,
+    "label": "entry:",
+    "id": "entry",
+    "col_gap": 1
+  },
+  {
+    "row": 20,
+    "type": "input",
+    "column": 3,
+    "label": "exit:",
+    "id": "exit",
+    "col_gap": 1
+  },
+  {
+    "row": 20,
+    "type": "input",
+    "column": 5,
+    "label": "duration:",
+    "id": "duration",
+    "col_gap": 4
+  },
+  {
+    "row": 21,
+    "type": "input",
+    "column": 1,
+    "label": "icu entry:",
+    "id": "icu_entry",
+    "col_gap": 1
+  },
+  {
+    "row": 21,
+    "type": "input",
+    "column": 3,
+    "label": "icu exit:",
+    "id": "icu_exit",
+    "col_gap": 1
+  },
+  {
+    "row": 21,
+    "type": "input",
+    "column": 5,
+    "label": "icu duration:",
+    "id": "icu_duration",
+    "col_gap": 4
+  },
+  {
+    "row": 22,
+    "type": "input",
+    "column": 1,
+    "label": "diagnosis:",
+    "id": "diagnosis",
+    "col_gap": 1
+  },
+  {
+    "row": 22,
+    "type": "input",
+    "column": 3,
+    "label": "disease:",
+    "id": "disease",
+    "col_gap": 1
+  },
+  {
+    "row": 22,
+    "type": "input",
+    "column": 5,
+    "label": "rescued:",
+    "id": "rescued",
+    "col_gap": 4
+  },
+  {
+    "row": 23,
+    "type": "input",
+    "column": 1,
+    "label": "vent start:",
+    "id": "vent_start",
+    "col_gap": 1
+  },
+  {
+    "row": 23,
+    "type": "input",
+    "column": 3,
+    "label": "vent finish:",
+    "id": "vent_finish",
+    "col_gap": 1
+  },
+  {
+    "row": 23,
+    "type": "input",
+    "column": 5,
+    "label": "Vent duration (h):",
+    "id": "Vent_duration",
+    "col_gap": 4
+  },
+  {
+    "row": 24,
+    "type": "input",
+    "column": 1,
+    "label": "Post vent start:",
+    "id": "post_vent_start",
+    "col_gap": 1
+  },
+  {
+    "row": 24,
+    "type": "input",
+    "column": 3,
+    "label": "Post vent finish:",
+    "id": "post_vent_finish",
+    "col_gap": 1
+  },
+  {
+    "row": 24,
+    "type": "input",
+    "column": 5,
+    "label": "Post vent duration (h)",
+    "id": "post_vent_duration",
+    "col_gap": 4
+  },
+  {
+    "row": 25,
+    "type": "input",
+    "column": 1,
+    "label": "catherization:",
+    "id": "catherization",
+    "col_gap": 1
+  },
+  {
+    "row": 25,
+    "type": "input",
+    "column": 3,
+    "label": "Lung collapse:",
+    "id": "lung_collapse",
+    "col_gap": 1
+  },
+  {
+    "row": 25,
+    "type": "input",
+    "column": 5,
+    "label": "arrhythmia:",
+    "id": "arrhythmia",
+    "col_gap": 4
+  },
+  {
+    "row": 26,
+    "type": "input",
+    "column": 1,
+    "label": "death:",
+    "id": "death",
+    "col_gap": 1
+  },
+  {
+    "row": 27,
+    "type": "label",
+    "label": "Operation Info"
+  },
+  {
+    "row": 28,
+    "type": "input",
+    "column": 1,
+    "label": "operation:",
+    "id": "operation",
+    "col_gap": 1
+  },
+  {
+    "row": 28,
+    "type": "input",
+    "column": 3,
+    "label": "date:",
+    "id": "date",
+    "col_gap": 1
+  },
+  {
+    "row": 29,
+    "type": "input",
+    "column": 1,
+    "label": "ABC:",
+    "id": "abc",
+    "col_gap": 1
+  },
+  {
+    "row": 29,
+    "type": "input",
+    "column": 3,
+    "label": "ACC:",
+    "id": "acc",
+    "col_gap": 1
+  },
+  {
+    "row": 29,
+    "type": "input",
+    "column": 5,
+    "label": "STAT:",
+    "id": "stat",
+    "col_gap": 4
+  },
+  {
+    "row": 30,
+    "type": "input",
+    "column": 1,
+    "label": "ane start:",
+    "id": "ane_start",
+    "col_gap": 1
+  },
+  {
+    "row": 30,
+    "type": "input",
+    "column": 3,
+    "label": "ane end:",
+    "id": "ane_end",
+    "col_gap": 1
+  },
+  {
+    "row": 30,
+    "type": "input",
+    "column": 5,
+    "label": "ane duration (h):",
+    "id": "ane_duration",
+    "col_gap": 4
+  },
+  {
+    "row": 31,
+    "type": "input",
+    "column": 1,
+    "label": "op start:",
+    "id": "op_start",
+    "col_gap": 1
+  },
+  {
+    "row": 31,
+    "type": "input",
+    "column": 3,
+    "label": "op end:",
+    "id": "op_end",
+    "col_gap": 1
+  },
+  {
+    "row": 31,
+    "type": "input",
+    "column": 5,
+    "label": "op duration (h):",
+    "id": "op_duration",
+    "col_gap": 4
+  },
+  {
+    "row": 32,
+    "type": "input",
+    "column": 1,
+    "label": "Bypass time (min):",
+    "id": "bypass_time",
+    "col_gap": 1
+  },
+  {
+    "row": 32,
+    "type": "input",
+    "column": 3,
+    "label": "Blocked time (min):",
+    "id": "blocked_time",
+    "col_gap": 1
+  },
+  {
+    "row": 32,
+    "type": "input",
+    "column": 5,
+    "label": "Stopped time (min):",
+    "id": "stopped_time",
+    "col_gap": 4
+  },
+  {
+    "row": 33,
+    "type": "input",
+    "column": 1,
+    "label": "Brain injection:",
+    "id": "brain_injection",
+    "col_gap": 1
+  },
+  {
+    "row": 33,
+    "type": "input",
+    "column": 3,
+    "label": "Lower injection:",
+    "id": "lower_injection",
+    "col_gap": 1
+  },
+  {
+    "row": 34,
+    "type": "label",
+    "label": "Standard Input Library"
+  },
+  {
+    "row": 35,
+    "type": "input",
+    "column": 1,
+    "label": "Purple:",
+    "id": "purple",
+    "col_gap": 1
+  },
+  {
+    "row": 35,
+    "type": "input",
+    "column": 3,
+    "label": "yellow:",
+    "id": "yellow",
+    "col_gap": 1
+  },
+  {
+    "row": 35,
+    "type": "input",
+    "column": 5,
+    "label": "green:",
+    "id": "green",
+    "col_gap": 4
+  },
+  {
+    "row": 35,
+    "type": "input",
+    "column": 1,
+    "label": "blue:",
+    "id": "blue",
+    "col_gap": 1
+  },
+  {
+    "row": 35,
+    "type": "input",
+    "column": 3,
+    "label": "red:",
+    "id": "red",
+    "col_gap": 1
+  },
+  {
+    "row": 35,
+    "type": "input",
+    "column": 5,
+    "label": "organization:",
+    "id": "organization",
+    "col_gap": 4
+  },
+  {
+    "row": 36,
+    "type": "input",
+    "column": 1,
+    "label": "wax:",
+    "id": "wax",
+    "col_gap": 1
+  },
+  {
+    "row": 37,
+    "type": "label",
+    "label": "Ultra Xray"
+  },
+  {
+    "row": 36,
+    "type": "input",
+    "column": 1,
+    "label": "Pre ultra:",
+    "id": "pre_ultra",
+    "col_gap": 1
+  },
+  {
+    "row": 36,
+    "type": "input",
+    "column": 3,
+    "label": "Post ultra:",
+    "id": "post_ultra",
+    "col_gap": 1
+  },
+  {
+    "row": 37,
+    "type": "input",
+    "column": 1,
+    "label": "Pre xray:",
+    "id": "pre_xray",
+    "col_gap": 1
+  },
+  {
+    "row": 37,
+    "type": "input",
+    "column": 3,
+    "label": "Post xray:",
+    "id": "post_xray",
+    "col_gap": 1
+  }
+]
+
