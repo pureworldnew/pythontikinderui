@@ -3,10 +3,10 @@ from tkinter import ttk
 from tkcalendar import DateEntry
 import json
 
-entry_array2 = {}
+tab2_values = {}
 
 def ele_row(elements, second_page):
-    global entry_array2
+    global tab2_values
 
     for ele in elements:
         if ele['type'] == 'label':
@@ -22,7 +22,7 @@ def ele_row(elements, second_page):
             if ele['type'] == 'input':
                 entry = ttk.Entry(second_page)
                 entry.grid(row=ele['row'], column=ele['column']+ele['col_gap'], sticky=W, padx=20)
-                entry_array2[ele['id']] = entry
+                tab2_values[ele['id']] = entry
             elif ele['type'] == 'select':
                 OPTIONS = []
                 for d in range(0, 10):
@@ -31,7 +31,7 @@ def ele_row(elements, second_page):
                 variable.set(OPTIONS[0])  # default value
                 entry = ttk.OptionMenu(second_page, variable, *OPTIONS)
                 entry.grid(row=ele['row'], column=ele['column']+ele['col_gap'])
-                entry_array2[ele['id']] = variable
+                tab2_values[ele['id']] = variable
             elif ele['type'] == 'datetime':
                 entry = DateEntry(second_page)
                 entry.grid(row=ele['row'], column=ele['column']+ele['col_gap'], sticky=W)

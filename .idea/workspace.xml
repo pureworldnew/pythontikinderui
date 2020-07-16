@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2e2b337-5674-43cf-b523-fbd43f7f67ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/db_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_page.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/first_page.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/first_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helper_functions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_page.json" beforeDir="false" afterPath="$PROJECT_DIR$/json/second_page.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/second_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/second_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql_queries.py" beforeDir="false" afterPath="$PROJECT_DIR$/sql_queries.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

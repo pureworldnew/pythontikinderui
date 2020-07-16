@@ -1,15 +1,11 @@
 from tkinter import ttk
-from tkcalendar import DateEntry
 from first_page import FirstPage
 from second_page import SecondPage
-from first_page import entry_array1
-from second_page import entry_array2
+from first_page import tab1_values
+from second_page import tab2_values
 import tkinter as tk
-import sqlite3
-from sqlite3 import Error
 from tkinter import *
 from tkinter import filedialog, messagebox
-from sql_queries import *
 from db_utils import *
 
 root = Tk()
@@ -135,46 +131,60 @@ class Notebook(ttk.Notebook):
         return self._tab[key].content
 
 
+def parse_values(tab_values):
+    tab_keys = tab_values.keys()
+    tab_values_array = []
+    tab_keys_array = []
+    tab_question_mark_str = ''
+    tab_sub_sql = ''
+    for idx, key in enumerate(tab_keys):
+        value = tab_values[key].get()
+        tab_values_array.append(value)
+        tab_keys_array.append(key)
+        if idx == len(tab_keys) - 1:
+            tab_sub_sql = tab_sub_sql + key + ' text '
+            tab_question_mark_str = tab_question_mark_str + '?'
+        else:
+            tab_sub_sql = tab_sub_sql + key + ' text, '
+            tab_question_mark_str = tab_question_mark_str + '?,'
+    return tab_sub_sql, tab_values_array, tab_keys_array, tab_question_mark_str
+
+
 def add_record_to_db():
-    print(entry_array1)
-    print(entry_array2)
-    for key1 in entry_array1.keys():
-        value1 = entry_array1[key1].get()
-        print(value1)
 
-    for key2 in entry_array2.keys():
-        value2 = entry_array2[key2].get()
-        print(value2)
+    tab1_sub_sql, tab1_values_array, tab1_keys_array, tab1_question_mark_str = parse_values(tab1_values)
+    tab2_sub_sql, tab2_values_array, tab2_keys_array, tab2_question_mark_str = parse_values(tab2_values)
 
-    print(DATABASE_)
+    sql_tab1_create_table = """CREATE TABLE IF NOT EXISTS """ + """ tab1 (
+                                            id integer PRIMARY KEY, """ + tab1_sub_sql + """
+                                        );"""
+
+    sql_tab2_create_table = """CREATE TABLE IF NOT EXISTS """ + """ tab2 (
+                                                id integer PRIMARY KEY, """ + tab2_sub_sql + """
+                                            );"""
     database = DATABASE_
     # create a database connection
     conn = create_connection(database)
 
     # create tables
     if conn is not None:
-        # create projects table
-        create_table(conn, sql_create_projects_table)
-
-        # create tasks table
-        create_table(conn, sql_create_tasks_table)
+        create_table(conn, sql_tab1_create_table)
+        create_table(conn, sql_tab2_create_table)
 
     else:
         print("Error! cannot create the database connection.")
 
     with conn:
-        # create a new project
-        project = ('Cool App with SQLite & Python', '2015-01-01', '2015-01-30');
-        project_id = create_project(conn, project)
+        tab1_val = tuple(tab1_values_array)
+        tab1_sql = ''' INSERT INTO ''' + '''tab1''' + str(tuple(tab1_keys_array)) + '''
+                      VALUES(''' + tab1_question_mark_str + ''') '''
+        insert_id = insert_db(conn, tab1_val, tab1_sql)
 
-        # tasks
-        task_1 = ('Analyze the requirements of the app', 1, 1, project_id, '2015-01-01', '2015-01-02')
-        task_2 = ('Confirm with user about the top requirements', 1, 1, project_id, '2015-01-03', '2015-01-05')
-
-        # create tasks
-        create_task(conn, task_1)
-        create_task(conn, task_2)
-
+        tab2_val = tuple(tab2_values_array)
+        tab2_sql = ''' INSERT INTO ''' + '''tab2''' + str(tuple(tab2_keys_array)) + '''
+                              VALUES(''' + tab2_question_mark_str + ''') '''
+        insert_id = insert_db(conn, tab2_val, tab2_sql)
+        messagebox.showinfo(message='DB Successfully Inserted')
 
 def make_add_record_window(root):
     root.geometry('1400x1600')
@@ -212,4 +222,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-

@@ -31,37 +31,17 @@ def create_table(conn, create_table_sql):
         print(e)
 
 
-def insert_table(conn, table, value_array):
-    pass
-
-
-def create_project(conn, project):
+def insert_db(conn, values, sql):
     """
     Create a new project into the projects table
     :param conn:
-    :param project:
+    :param values:
+    :param sql:
     :return: project id
     """
-    sql = ''' INSERT INTO projects(name,begin_date,end_date)
-              VALUES(?,?,?) '''
+    sql = sql
     cur = conn.cursor()
-    cur.execute(sql, project)
+    cur.execute(sql, values)
     conn.commit()
     return cur.lastrowid
 
-
-def create_task(conn, task):
-    """
-    Create a new task
-    :param conn:
-    :param task:
-    :return:
-    """
-
-    sql = ''' INSERT INTO tasks(name,priority,status_id,project_id,begin_date,end_date)
-              VALUES(?,?,?,?,?,?) '''
-    cur = conn.cursor()
-    cur.execute(sql, task)
-    conn.commit()
-
-    return cur.lastrowid
